@@ -1,3 +1,6 @@
+# Grafica los  nombres de los estudiantes.
+# primer momento, grafica el oscilograma
+# guarda el gráfico con el nombre del archivo de audio
 
 directorio_origen$ = chooseDirectory$ ("Elija directorio")
 
