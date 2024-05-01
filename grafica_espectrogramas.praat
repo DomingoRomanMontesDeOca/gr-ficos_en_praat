@@ -24,7 +24,7 @@ for i to ene_lista_sonidos
 
 	Scale peak: 0.99
  
-  sptr = To Spectrogram: 0.005, 5000, 0.002, 20, "Gaussian"
+  	sptr = To Spectrogram: 0.005, 5000, 0.002, 20, "Gaussian"
 
 	Erase all
 
@@ -32,10 +32,14 @@ for i to ene_lista_sonidos
 
 	Paint: 0, 0, 0, 0, 100, "yes", 50, 6, 0, "no"
  
-  Draw inner box
+ 	 Draw inner box
 
 	Select outer viewport: 0.5, 10.5, 0.5, 2.5
 
 	Save as 300-dpi PNG file: "'directorio_origen$'/'nombre_sin_wav$'"+"_spt.png"
+
+	select a
+	plus sptr
+	Remove
 
 endfor
