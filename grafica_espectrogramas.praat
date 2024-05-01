@@ -32,7 +32,7 @@ for i to ene_lista_sonidos
 
 	Paint: 0, 0, 0, 0, 100, "yes", 50, 6, 0, "no"
  
- 	 Draw inner box
+ 	Draw inner box
 
 	Select outer viewport: 0.5, 10.5, 0.5, 2.5
 
@@ -40,6 +40,7 @@ for i to ene_lista_sonidos
 
 	select a
 	plus sptr
+	plus filtrado
 	Remove
 
 endfor
